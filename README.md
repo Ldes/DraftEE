@@ -17,6 +17,5 @@ All's well in theory, will be interesting when user permissions are thrown in th
 Will cross that bridge if I ever get there...
 
 ### Fork
-Caveats: I don't have an indepth understanding of EE. Just started hacking workflow for 2 days due to an urgent request.
 * Added support russian language
 * fixed instal 2.8.1 issue
