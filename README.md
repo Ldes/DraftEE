@@ -18,4 +18,4 @@ Will cross that bridge if I ever get there...
 
 ### Fork
 * Added support russian language
-* fixed instal 2.8.1 issue
+* fixed install 2.8.1 issue
