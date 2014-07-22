@@ -20,7 +20,7 @@
 
 		public function Draftee_ft()
 		{
-			parent::EE_Fieldtype();
+			if (version_compare(APP_VER, '2.1.4', '>')) { parent::__construct(); } else { parent::EE_Fieldtype(); } // fix issue https://github.com/iainurquhart/DraftEE/issues/3
 			// include_once PATH_THIRD.'taxonomy/libraries/MPTtree.php';
 			$this->EE->lang->loadfile('draftee');
 			$this->theme_base = $this->EE->config->item('theme_folder_url').'third_party/draftee_assets/';
