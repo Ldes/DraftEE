@@ -61,7 +61,7 @@ $(document).ready(function() {
 				{
 					
 					$draft_count++;
-					$edit_date = $this->localize->decode_date($date_format, strtotime($draft['edit_date']), TRUE);
+					$edit_date = $this->localize->format_date($date_format, strtotime($draft['edit_date']), TRUE);
 					$r .= "<tr>";
 					
 					$r .= "<td><a href='".$publish_base."&amp;entry_id=".$draft['entry_id']."&amp;channel_id=".$draft['channel_id']."'>".$draft['title']."</a></td>";
